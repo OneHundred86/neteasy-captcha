@@ -1,0 +1,26 @@
+{
+    "name": "oh86/netesay-captcha",
+    "description": "netesay captcha verifier for laravel",
+    "autoload": {
+        "psr-4": {
+            "Oh86\\NetEasy\\Captcha": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chenguangjun",
+            "email": "chen.gj@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "laravel/framework": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Oh86\\NetEasy\\Captcha\\CaptchaProvider"
+            ]
+        }
+    }
+}
