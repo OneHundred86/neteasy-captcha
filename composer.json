@@ -1,9 +1,15 @@
 {
     "name": "oh86/netesay-captcha",
     "description": "netesay captcha verifier for laravel",
+    "keywords": [
+        "php",
+        "laravel",
+        "captcha",
+        "易盾行为验证码"
+    ],
     "autoload": {
         "psr-4": {
-            "Oh86\\NetEasy\\Captcha": "src/"
+            "Oh86\\NetEasy\\Captcha\\": "src/"
         }
     },
     "authors": [
@@ -13,7 +19,7 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "~6.0",
+        "guzzlehttp/guzzle": "~6.0 || ^7.0",
         "laravel/framework": "*"
     },
     "extra": {
