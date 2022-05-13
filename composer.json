@@ -1,6 +1,6 @@
 {
-    "name": "oh86/netesay-captcha",
-    "description": "netesay captcha verifier for laravel",
+    "name": "oh86/neteasy-captcha",
+    "description": "neteasy captcha verifier for laravel",
     "keywords": [
         "php",
         "laravel",
