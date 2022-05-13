@@ -7,7 +7,7 @@
 ##### 二、安装
 
 ```shell
-composer require "oh86/netesay-captcha"
+composer require "oh86/neteasy-captcha"
 ```
 
 ##### 三、配置
